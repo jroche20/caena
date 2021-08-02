@@ -15,35 +15,49 @@
             <nav class="navbar">
                 <ul class="bar" id="nav">
                     <li>
-                        <img src="images/dashboard.svg" alt="dash icon">
-                        <p>Dashboard</p>
+                        <a href="#">
+                            <img src="images/dashboard.svg" alt="dash icon">
+                            <p>Dashboard</p>
+                        </a>
                     </li>
                     <li>
-                        <img src="images/questionnaire.svg" alt="question icon">
-                        <p>Questionnaire</p>
+                        <a href="#">
+                            <img src="images/questionnaire.svg" alt="question icon">
+                            <p>Questionnaire</p>
+                            <img src="images/rightarrow.svg" alt="right arrow">
+                        </a>
                     </li>
                     <li>
-                        <img src="images/modeling.svg" alt="modeling icon">
-                        <p>Financial Models</p>
+                        <a href="#">
+                            <img src="images/modeling.svg" alt="modeling icon">
+                            <p>Financial Models</p>
+                        </a>
                     </li>
                     <li>
-                        <img src="images/subscription.svg" alt="subscription icon">
-                        <p>Subscriptions</p>
+                        <a href="#">
+                            <img src="images/subscription.svg" alt="subscription icon">
+                            <p>Subscriptions</p>
+                        </a>
                     </li>
                     <li>
-                        <img src="images/paymenthist.svg" alt="payment icon">
-                        <p>Payment History</p>
+                        <a href="#">
+                            <img src="images/paymenthist.svg" alt="payment icon">
+                            <p>Payment History</p>
+                        </a>
                     </li>
                 </ul>
                 <div class="user card">
-                    <img src="images/user.svg" alt="user icon">
-                    <p>Johnathan Doe</p>
-                    <img src="images/downarrow.svg" alt="down arrow">
+                    <a href="#">
+                        <img src="images/user.svg" alt="user icon">
+                        <p>Johnathan Doe</p>
+                        <img src="images/downarrow.svg" alt="down arrow">
+                    </a>
                 </div>
             </nav>
         </header>
+
         <h1>Questionnaire</h1>
-        <div class="questions">
+        <div class="maincontainer">
             <div class="companyinfo">
                 <section class="sectionhead">
                     <img src="images/sectionicon.svg" alt="section graphic" class="sectionlogo">
@@ -112,10 +126,27 @@
                             <input type="text" placeholder="Founder size">
                         </li>
                     </ol>
+
+                    <div class="termdef">
+                        <div class="companyname"> 
+                            <h4>COMPANY NAME</h4>
+                            <p>more explanation about "company name" to make user understand what it means</p>
+                        </div>
+    
+                        <div class="industry"> 
+                            <h4>INDUSTRY</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        </div>
+    
+                        <div class="founders"> 
+                            <h4>FOUNDERS</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div>
+            <div class="founderinfo">
                 <section class="sectionhead">
                     <img src="images/sectionicon.svg" alt="section graphic" class="sectionlogo">
                     <h3 class="header">Founder Information</h3>
@@ -142,10 +173,17 @@
                             <input type="text" placeholder="e.g linkedin.com/foundername">
                         </li> 
                     </ol>
+
+                    <div class="termdef">
+                        <div class="foundername"> 
+                            <h4>FOUNDER NAME</h4>
+                            <p>we have sent an email to Johnathan@gmail with a link to verify your email. You need to verify your email to complete registration</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             
-            <div>
+            <div class="fundraise">
                 <section class="sectionhead">
                     <img src="images/sectionicon.svg" alt="section graphic" class="sectionlogo">
                     <h3 class="header">Fundraise & Traction</h3>
@@ -155,10 +193,39 @@
 
                 <div class="questions">
                     <ol>
-                       <li>Has your company previously raised any capital?</li> 
-                       <li>What is your estimated turnover for the current financial year?</li> 
-                       <li>Are you currently raising a funding round?</li> 
+                        <li>
+                            <p>Has your company previously raised any capital?</p>
+                            <div class="yesbtn">
+                                <img src="images/unfilledcircle.svg" alt="yes">
+                                <p>Yes</p>
+                            </div>
+                            <div class="nobtn">
+                                <img src="images/filledcircle.svg" alt="no">
+                                <p>No</p>
+                            </div>
+                        </li> 
+                       <li>
+                           <p>What is your estimated turnover for the current financial year?</p>
+                           <input type="text" placeholder="Estimated turnover">
+                       <li>
+                            <p>Are you currently raising a funding round?</p>
+                            <div class="yesbtn">
+                                <img src="images/unfilledcircle.svg" alt="yes">
+                                <p>Yes</p>
+                            </div>
+                            <div class="nobtn">
+                                <img src="images/filledcircle.svg" alt="no">
+                                <p>No</p>
+                            </div>
+                        </li>   
                     </ol>
+
+                    <div class="termdef">
+                        <div class="companyname"> 
+                            <h4>CAPITALS</h4>
+                            <p>we have sent an email to Johnathan@gmail with a link to verify your email. You need to verify your email to complete registration</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
