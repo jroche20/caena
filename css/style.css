@@ -74,11 +74,6 @@ h1 {
     font-size: 20px;
 }
 
-.questions {
-    color: #646363;
-    line-height: 25px;
-}
-
 .sectionhead {
     margin-top: 35px;
     margin-bottom: 20px;
@@ -89,17 +84,20 @@ h1 {
 }
 
 .questions {
+    color: #646363;
+    line-height: 25px;
     background: white;
     padding: 30px;
     border-radius: 8px;
     margin-left: 20px;
     margin-top: 0px;
     margin-right: 20px;
+    border-right: 6px solid #646363;
 }
 
 .questions ol {
     padding: 10px;
-    line-height: 40px;
+    line-height: 45px;
 }
 
 /* .usericon {
