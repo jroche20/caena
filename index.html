@@ -12,26 +12,158 @@
         <header>
             <img src="images/logo.svg" alt=" caena logo" class = "logo">
 
-            <nav>
+            <nav class="navbar">
                 <ul class="bar" id="nav">
-                    <li>Dashboard</li>
-                    <li>Questionnaire</li>
-                    <li>Financial Models</li>
-                    <li>Subscriptions</li>
-                    <li>Payment History</li>
+                    <li>
+                        <img src="images/dashboard.svg" alt="dash icon">
+                        <p>Dashboard</p>
+                    </li>
+                    <li>
+                        <img src="images/questionnaire.svg" alt="question icon">
+                        <p>Questionnaire</p>
+                    </li>
+                    <li>
+                        <img src="images/modeling.svg" alt="modeling icon">
+                        <p>Financial Models</p>
+                    </li>
+                    <li>
+                        <img src="images/subscription.svg" alt="subscription icon">
+                        <p>Subscriptions</p>
+                    </li>
+                    <li>
+                        <img src="images/paymenthist.svg" alt="payment icon">
+                        <p>Payment History</p>
+                    </li>
                 </ul>
+                <div class="user card">
+                    <img src="images/user.svg" alt="user icon">
+                    <p>Johnathan Doe</p>
+                    <img src="images/downarrow.svg" alt="down arrow">
+                </div>
             </nav>
         </header>
-
-        <section>
-            <h1>Questionnaire</h1>
-            <img src="images/section.svg" alt="section graphic" class="sectionlogo">
-            <h3 class="header">Company Information</h3>
-            <p class="companydescript">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore</p>
-
-        </section>
-    </div>
+        <h1>Questionnaire</h1>
+        <div class="questions">
+            <div class="companyinfo">
+                <section class="sectionhead">
+                    <img src="images/sectionicon.svg" alt="section graphic" class="sectionlogo">
+                    <h3 class="header">Company Information</h3>
+                    <p class="companydescript">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore</p>
+                </section>
     
+                <div class="questions">
+                    <ol>
+                       <li>
+                           <p>Company Name</p>
+                           <input type="text" placeholder="Company name">
+                       </li> 
+                       <li>
+                            <p>Company Email</p>
+                            <input type="text" placeholder="e.g name@mail.com">
+                        </li> 
+                        <li>
+                            <p>Contact Number</p>
+                            <input type="text" placeholder="Phone number">
+                        </li>
+                        <li>
+                            <p>Country</p>
+                            <select name="country" id="country">
+                                <option value="argentina">Argentina</option>
+                                <option value="australia">Australia</option>
+                                <option value="bahrain">Bahrain</option>
+                                <option value="belgium">Belgium</option>
+                                <option value="bosnia">Bosnia and Herzegovina</option>
+                                <option value="burkina">Burkina Faso</option>
+                                <option value="cote">Côte d'Ivoire</option>
+                                <option value="africa">Central African Republic</option>
+                                <option value="croatia">Croatia</option>
+                                <option value="denmark">Denmark</option>
+                                <option value="ethiopia">Ethiopia</option>
+                                <option value="germany">Germany</option>
+                            </select>
+                        </li> 
+                        <li>
+                            <p>State</p>
+                            <input type="text" placeholder="Select state">
+                        </li> 
+                        <li>
+                            <p>City</p>
+                            <input type="text" placeholder="Select city">
+                        </li> 
+                        <li>
+                            <p>Industry</p>
+                            <input type="text" placeholder="Select industry type">
+                        </li>
+                        <li>
+                            <p>Company Website</p>
+                            <input type="text" placeholder="e.g www.company.com">
+                        </li>
+                        <li>
+                            <p>Company Description</p>
+                            <input type="text" placeholder="Description">
+                        </li>
+                        <li>
+                            <p>Company Stage</p>
+                            <input type="text" placeholder="Select stage">
+                        </li>
+                        <li>
+                            <p>How many founders are involved in your startup?</p>
+                            <input type="text" placeholder="Founder size">
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div>
+                <section class="sectionhead">
+                    <img src="images/sectionicon.svg" alt="section graphic" class="sectionlogo">
+                    <h3 class="header">Founder Information</h3>
+                    <p class="companydescript">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore</p>
+                </section>
+
+                <div class="questions">
+                    <ol>
+                        <li>
+                            <p>Founder Full Name</p>
+                            <input type="text" placeholder="Founder's name">
+                        </li> 
+                        <li>
+                            <p>Founder Job Title</p>
+                            <input type="text" placeholder="e.g CEO">
+                        </li> 
+                        <li>
+                            <p>Founder Email</p>
+                            <input type="text" placeholder="e.g name@mail.com">
+                        </li> 
+                        <li>
+                            <p>Founder LinkedIn URL</p>
+                            <input type="text" placeholder="e.g linkedin.com/foundername">
+                        </li> 
+                    </ol>
+                </div>
+            </div>
+            
+            <div>
+                <section class="sectionhead">
+                    <img src="images/sectionicon.svg" alt="section graphic" class="sectionlogo">
+                    <h3 class="header">Fundraise & Traction</h3>
+                    <p class="companydescript">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore</p>
+                </section>
+
+                <div class="questions">
+                    <ol>
+                       <li>Has your company previously raised any capital?</li> 
+                       <li>What is your estimated turnover for the current financial year?</li> 
+                       <li>Are you currently raising a funding round?</li> 
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="continue">Save & Continue</a>
+    </div> 
 </body>
 </html>
