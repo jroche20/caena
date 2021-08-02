@@ -109,6 +109,7 @@ h1 {
 input {
     width: 800px;
     height: 40px;
+    text-indent: 2%;
 }
 
 .continue {
