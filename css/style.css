@@ -123,16 +123,24 @@ h1 {
     width: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-right: 0px;
+    margin-left: auto; 
+    margin-right: 0;
+    border-left: 2px solid #F6F7F9;
 }
 
-.companyname {
-    margin-top: 30px;
+.termdef div {
+    padding: 10px;
+    background: rgba(246, 247, 249, 0.5);
+    width: 400px;
 }
 
-.industry {
-    margin-top: 100px;
+.termdef h4 {
+    color: #1D817F;
+}
+
+.termdef p {
+    color: #333E49;
+    font-size: 15px;
 }
 
 .questions ol {
@@ -141,9 +149,10 @@ h1 {
 }
 
 input {
-    width: 800px;
+    width: 941px;
     height: 40px;
     text-indent: 2%;
+    border: 0.5px solid #333E49;
 }
 
 .continue {
@@ -207,8 +216,8 @@ input {
     margin-left: 65px;
 }
 
-/* .downarrow {
+.downarrow {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 600px;
-} */
+    /* margin-right: 600px; */
+}
