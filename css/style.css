@@ -82,6 +82,17 @@ h1 {
 .questions div {
     margin-bottom: 20px;
 }
+/* 
+.list {
+    color: #646363;
+    line-height: 25px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-right: 20px;   
+} */
 
 .questions {
     color: #646363;
@@ -91,8 +102,23 @@ h1 {
     border-radius: 8px;
     margin-left: 20px;
     margin-top: 0px;
-    margin-right: 20px;
-    border-right: 6px solid #646363;
+    margin-right: 20px;  
+    display: flex;
+}
+
+.termdef {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.companyname {
+    margin-top: 30px;
+}
+
+.industry {
+    margin-top: 100px;
 }
 
 .questions ol {
