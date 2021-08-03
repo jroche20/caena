@@ -48,9 +48,8 @@ ul {
 .logo {
     width: 136px;
     height: 67px;
-    align-items: center;
+    margin-left: 50px;
     margin-bottom: 30px;
-    margin-left: 30px;
 }
 
 .navbar a {
@@ -92,35 +91,19 @@ h1 {
     padding-left: 30px;
 }
 
-.questions ol {
-    margin-bottom: 10px;
-}
-/* 
-.list {
-    color: #646363;
-    line-height: 25px;
-    background: white;
-    padding: 30px;
-    border-radius: 8px;
-    margin-left: 20px;
-    margin-top: 0px;
-    margin-right: 20px;   
-} */
-
 .questions {
     color: #646363;
     line-height: 25px;
     background: white;
-    padding: 30px;
+    padding-left: 30px;
     border-radius: 8px;
     margin-left: 20px;
-    /* margin-top: 0px; */
     margin-right: 20px;  
     display: flex;
 }
 
 .termdef {
-    width: 350px;
+    width: 405px;
     display: flex;
     flex-direction: column;
     margin-left: auto; 
@@ -128,24 +111,43 @@ h1 {
     border-left: 2px solid #F6F7F9;
 }
 
-.termdef div {
-    padding: 10px;
+.term {
+    padding: 20px;
     background: rgba(246, 247, 249, 0.5);
-    width: 400px;
+    /* margin-top: 20px; */
+}
+
+.companyname {
+    margin-top: 20px;
+}
+
+.industry {
+    margin-top: 500px;
+}
+
+.founders {
+    margin-top: 280px;
+}
+
+.foundername {
+    margin-top: 20px;
 }
 
 .termdef h4 {
     color: #1D817F;
+    font-size: 15px;
 }
 
 .termdef p {
     color: #333E49;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .questions ol {
-    padding: 10px;
-    line-height: 45px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    line-height: 50px;
 }
 
 input {
@@ -208,8 +210,6 @@ input {
     z-index: 4;
 }
 
-
-
 .rightarrow {
     display: inline-block;
     vertical-align: middle;
@@ -219,5 +219,5 @@ input {
 .downarrow {
     display: inline-block;
     vertical-align: middle;
-    /* margin-right: 600px; */
+    margin-left: 11px;
 }
