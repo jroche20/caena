@@ -210,13 +210,22 @@
                            <input type="text" placeholder="Estimated turnover">
                        <li>
                             <p>Are you currently raising a funding round?</p>
-                            <div class="yesno">
-                                <img src="images/unfilledcircle.svg" alt="yes">
-                                <p>Yes</p>
-                            </div>
-                            <div class="yesno">
-                                <img src="images/filledcircle.svg" alt="no">
-                                <p>No</p>
+                            <div class="mc">
+                                <ul>
+                                    <li>
+                                      <input type="radio" id="yes" name="selector">
+                                      <label for="yes">Yes</label>
+                                      
+                                      <div class="check"></div>
+                                    </li>
+                                    
+                                    <li>
+                                      <input type="radio" id="no" name="selector">
+                                      <label for="no">No</label>
+                                      
+                                      <div class="check"><div class="inside"></div></div>
+                                    </li>
+                                  </ul>
                             </div>
                         </li>   
                     </ol>
